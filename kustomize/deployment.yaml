@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world
+spec:
+  replicas: 1
+  template:
+    spec:
+      containers:
+      - name: container_name
+        image: service_image
+        ports:
+        - containerPort: 80

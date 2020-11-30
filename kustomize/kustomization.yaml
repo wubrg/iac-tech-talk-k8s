@@ -15,6 +15,7 @@ images:
 
 bases:
   - service.yaml
+  - deployment.yaml
 
 patchesStrategicMerge:
   - service-json-patch.yaml
