@@ -1,0 +1,13 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world
+spec:
+  template:
+    spec:
+      containers:
+        - name: container_name
+          env:
+          - name: HELLO_WORLD_TEXT
+            value: Hello from this kustomized service!

@@ -1,0 +1,8 @@
+---
+# Replace servicename with actual service name
+- op: test
+  path: /spec/template/spec/containers/0/name
+  value: container_name
+- op: replace
+  path: /spec/template/spec/containers/0/name
+  value: kustomized-container-name
