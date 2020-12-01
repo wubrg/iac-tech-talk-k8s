@@ -74,8 +74,6 @@ HashiCorp has their own K8s provider that you can use to define your k8s infrast
 
 - Provider versions can lag behind official releases from K8s and you are reliant on HashiCorp to update.
 
-- A new level of abstraction is very terraform friendly but not always K8s friendly. Debugging the actual k8s source yaml is difficult if not impossible.
-
 #### Other Considerations
 
 - TBD
