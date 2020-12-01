@@ -18,7 +18,7 @@ bases:
   - deployment.yaml
 
 patchesStrategicMerge:
-  - service-json-patch.yaml
+  - deployment-json-patch.yaml
 
 patchesJson6902:
   - target:
@@ -26,4 +26,4 @@ patchesJson6902:
       kind: Deployment
       name: hello-world
       version: v1
-    path: service-inline-patch.yaml
+    path: deployment-inline-patch.yaml

@@ -34,6 +34,7 @@ Kustomize naturally fits into a module-centric approach to code. It works by spe
 
 ## Considerations when using Kustomize to manage your service
 
+
 #### Pros
 - extremely flexible and easy to use
 - allows the use of local or remote base/patch references
